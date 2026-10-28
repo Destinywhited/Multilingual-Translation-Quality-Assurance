@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ES-001",
+    "source_language": "ES",
+    "source_text": "El paciente debe tomar el medicamento dos veces al día.",
+    "machine_translation": "The patient should take the medicine twice a day.",
+    "reference_translation": "The patient should take the medication twice daily.",
+    "data_origin": "synthetic_test_case",
+    "errors": []
+  },
+  {
+    "id": "ES-002",
+    "source_language": "ES",
+    "source_text": "No administre este producto a niños menores de doce años.",
+    "machine_translation": "Administer this product to children under twelve years old.",
+    "reference_translation": "Do not administer this product to children under twelve years of age.",
+    "data_origin": "synthetic_test_case",
+    "errors": [
+      {
+        "category": "accuracy",
+        "severity": "critical",
+        "span": "Administer this product",
+        "description": "The source prohibition is omitted, reversing the instruction."
+      }
+    ]
+  },
+  {
+    "id": "FR-001",
+    "source_language": "FR",
+    "source_text": "Veuillez conserver le reçu pour toute demande de remboursement.",
+    "machine_translation": "Please keep the receipt for any refund request.",
+    "reference_translation": "Please retain the receipt for any reimbursement request.",
+    "data_origin": "synthetic_test_case",
+    "errors": []
+  },
+  {
+    "id": "FR-002",
+    "source_language": "FR",
+    "source_text": "Les données doivent rester confidentielles.",
+    "machine_translation": "The data must remain public.",
+    "reference_translation": "The data must remain confidential.",
+    "data_origin": "synthetic_test_case",
+    "errors": [
+      {
+        "category": "accuracy",
+        "severity": "critical",
+        "span": "public",
+        "description": "The translation reverses the confidentiality requirement."
+      }
+    ]
+  },
+  {
+    "id": "DE-001",
+    "source_language": "DE",
+    "source_text": "Bitte reichen Sie den Antrag bis Freitag ein.",
+    "machine_translation": "Please submit the application by Friday.",
+    "reference_translation": "Please submit the application by Friday.",
+    "data_origin": "synthetic_test_case",
+    "errors": []
+  },
+  {
+    "id": "DE-002",
+    "source_language": "DE",
+    "source_text": "Die Zahlung ist innerhalb von dreißig Tagen fällig.",
+    "machine_translation": "Payment is due within thirty months.",
+    "reference_translation": "Payment is due within thirty days.",
+    "data_origin": "synthetic_test_case",
+    "errors": [
+      {
+        "category": "accuracy",
+        "severity": "major",
+        "span": "thirty months",
+        "description": "The translation changes the payment deadline from days to months."
+      }
+    ]
+  },
+  {
+    "id": "ES-003",
+    "source_language": "ES",
+    "source_text": "El plazo de entrega es de cinco días hábiles.",
+    "machine_translation": "The delivery period is five business days.",
+    "reference_translation": "The delivery period is five business days.",
+    "data_origin": "synthetic_test_case",
+    "errors": []
+  },
+  {
+    "id": "FR-003",
+    "source_language": "FR",
+    "source_text": "Cliquez sur le bouton pour enregistrer les modifications.",
+    "machine_translation": "Click on the button to save the changes.",
+    "reference_translation": "Click the button to save the changes.",
+    "data_origin": "synthetic_test_case",
+    "errors": [
+      {
+        "category": "fluency",
+        "severity": "minor",
+        "span": "Click on the button",
+        "description": "The wording is less concise than the preferred interface instruction."
+      }
+    ]
+  },
+  {
+    "id": "DE-003",
+    "source_language": "DE",
+    "source_text": "Verwenden Sie ausschließlich das zugelassene Ersatzteil.",
+    "machine_translation": "Use only the approved replacement part.",
+    "reference_translation": "Use only the approved replacement part.",
+    "data_origin": "synthetic_test_case",
+    "errors": []
+  },
+  {
+    "id": "ES-004",
+    "source_language": "ES",
+    "source_text": "La factura debe incluir el número de identificación fiscal.",
+    "machine_translation": "The invoice must include the tax identification number.",
+    "reference_translation": "The invoice must include the tax identification number.",
+    "data_origin": "synthetic_test_case",
+    "errors": []
+  },
+  {
+    "id": "FR-004",
+    "source_language": "FR",
+    "source_text": "Le logiciel prend en charge la sauvegarde automatique.",
+    "machine_translation": "The software supports automatic saving.",
+    "reference_translation": "The software supports automatic backup.",
+    "data_origin": "synthetic_test_case",
+    "errors": [
+      {
+        "category": "terminology",
+        "severity": "major",
+        "span": "automatic saving",
+        "description": "The intended technical feature is automatic backup, not saving."
+      }
+    ]
+  },
+  {
+    "id": "DE-004",
+    "source_language": "DE",
+    "source_text": "Der Vertrag verlängert sich nicht automatisch.",
+    "machine_translation": "The contract renews automatically.",
+    "reference_translation": "The contract does not renew automatically.",
+    "data_origin": "synthetic_test_case",
+    "errors": [
+      {
+        "category": "accuracy",
+        "severity": "critical",
+        "span": "renews automatically",
+        "description": "The translation omits the negation."
+      }
+    ]
+  }
+]

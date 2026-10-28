@@ -1,0 +1,176 @@
+[
+  {
+    "id": "ES-001",
+    "source_language": "ES",
+    "score": 100,
+    "threshold": 80,
+    "below_threshold": false,
+    "error_count": 0,
+    "errors": [],
+    "corrected_translation": null,
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "ES-002",
+    "source_language": "ES",
+    "score": 70,
+    "threshold": 80,
+    "below_threshold": true,
+    "error_count": 1,
+    "errors": [
+      {
+        "category": "accuracy",
+        "severity": "critical",
+        "span": "Administer this product",
+        "description": "The source prohibition is omitted, reversing the instruction."
+      }
+    ],
+    "corrected_translation": "Do not administer this product to children under twelve years of age.",
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "FR-001",
+    "source_language": "FR",
+    "score": 100,
+    "threshold": 80,
+    "below_threshold": false,
+    "error_count": 0,
+    "errors": [],
+    "corrected_translation": null,
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "FR-002",
+    "source_language": "FR",
+    "score": 70,
+    "threshold": 80,
+    "below_threshold": true,
+    "error_count": 1,
+    "errors": [
+      {
+        "category": "accuracy",
+        "severity": "critical",
+        "span": "public",
+        "description": "The translation reverses the confidentiality requirement."
+      }
+    ],
+    "corrected_translation": "The data must remain confidential.",
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "DE-001",
+    "source_language": "DE",
+    "score": 100,
+    "threshold": 80,
+    "below_threshold": false,
+    "error_count": 0,
+    "errors": [],
+    "corrected_translation": null,
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "DE-002",
+    "source_language": "DE",
+    "score": 85,
+    "threshold": 80,
+    "below_threshold": false,
+    "error_count": 1,
+    "errors": [
+      {
+        "category": "accuracy",
+        "severity": "major",
+        "span": "thirty months",
+        "description": "The translation changes the payment deadline from days to months."
+      }
+    ],
+    "corrected_translation": null,
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "ES-003",
+    "source_language": "ES",
+    "score": 100,
+    "threshold": 80,
+    "below_threshold": false,
+    "error_count": 0,
+    "errors": [],
+    "corrected_translation": null,
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "FR-003",
+    "source_language": "FR",
+    "score": 95,
+    "threshold": 80,
+    "below_threshold": false,
+    "error_count": 1,
+    "errors": [
+      {
+        "category": "fluency",
+        "severity": "minor",
+        "span": "Click on the button",
+        "description": "The wording is less concise than the preferred interface instruction."
+      }
+    ],
+    "corrected_translation": null,
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "DE-003",
+    "source_language": "DE",
+    "score": 100,
+    "threshold": 80,
+    "below_threshold": false,
+    "error_count": 0,
+    "errors": [],
+    "corrected_translation": null,
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "ES-004",
+    "source_language": "ES",
+    "score": 100,
+    "threshold": 80,
+    "below_threshold": false,
+    "error_count": 0,
+    "errors": [],
+    "corrected_translation": null,
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "FR-004",
+    "source_language": "FR",
+    "score": 85,
+    "threshold": 80,
+    "below_threshold": false,
+    "error_count": 1,
+    "errors": [
+      {
+        "category": "terminology",
+        "severity": "major",
+        "span": "automatic saving",
+        "description": "The intended technical feature is automatic backup, not saving."
+      }
+    ],
+    "corrected_translation": null,
+    "data_origin": "synthetic_test_case"
+  },
+  {
+    "id": "DE-004",
+    "source_language": "DE",
+    "score": 70,
+    "threshold": 80,
+    "below_threshold": true,
+    "error_count": 1,
+    "errors": [
+      {
+        "category": "accuracy",
+        "severity": "critical",
+        "span": "renews automatically",
+        "description": "The translation omits the negation."
+      }
+    ],
+    "corrected_translation": "The contract does not renew automatically.",
+    "data_origin": "synthetic_test_case"
+  }
+]

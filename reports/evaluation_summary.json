@@ -1,0 +1,21 @@
+{
+  "cases_evaluated": 12,
+  "cases_below_threshold": 3,
+  "error_counts_by_category": {
+    "accuracy": 4,
+    "fluency": 1,
+    "terminology": 1
+  },
+  "error_counts_by_language": {
+    "ES": 4,
+    "FR": 4,
+    "DE": 4
+  },
+  "error_counts_by_severity": {
+    "critical": 3,
+    "major": 2,
+    "minor": 1
+  },
+  "quality_threshold": 80,
+  "scoring_note": "Illustrative penalty-based screening score; not an official MQM score."
+}

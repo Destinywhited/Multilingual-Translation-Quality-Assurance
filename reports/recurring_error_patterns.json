@@ -1,0 +1,85 @@
+{
+  "dataset_origin": "synthetic_test_cases",
+  "engine_level_claim": false,
+  "interpretation": "Candidate patterns from synthetic annotations only. Actual engine-level recurrence requires real engine outputs and engine identifiers.",
+  "total_annotated_errors": 6,
+  "counts_by_category": {
+    "accuracy": 4,
+    "fluency": 1,
+    "terminology": 1
+  },
+  "counts_by_severity": {
+    "critical": 3,
+    "major": 2,
+    "minor": 1
+  },
+  "counts_by_language_and_category": {
+    "DE": {
+      "accuracy": 2
+    },
+    "ES": {
+      "accuracy": 1
+    },
+    "FR": {
+      "accuracy": 1,
+      "fluency": 1,
+      "terminology": 1
+    }
+  },
+  "annotated_patterns": [
+    {
+      "case_id": "ES-002",
+      "language": "ES",
+      "category": "accuracy",
+      "severity": "critical",
+      "span": "Administer this product",
+      "description": "The source prohibition is omitted, reversing the instruction.",
+      "data_origin": "synthetic_test_case"
+    },
+    {
+      "case_id": "FR-002",
+      "language": "FR",
+      "category": "accuracy",
+      "severity": "critical",
+      "span": "public",
+      "description": "The translation reverses the confidentiality requirement.",
+      "data_origin": "synthetic_test_case"
+    },
+    {
+      "case_id": "DE-002",
+      "language": "DE",
+      "category": "accuracy",
+      "severity": "major",
+      "span": "thirty months",
+      "description": "The translation changes the payment deadline from days to months.",
+      "data_origin": "synthetic_test_case"
+    },
+    {
+      "case_id": "FR-003",
+      "language": "FR",
+      "category": "fluency",
+      "severity": "minor",
+      "span": "Click on the button",
+      "description": "The wording is less concise than the preferred interface instruction.",
+      "data_origin": "synthetic_test_case"
+    },
+    {
+      "case_id": "FR-004",
+      "language": "FR",
+      "category": "terminology",
+      "severity": "major",
+      "span": "automatic saving",
+      "description": "The intended technical feature is automatic backup, not saving.",
+      "data_origin": "synthetic_test_case"
+    },
+    {
+      "case_id": "DE-004",
+      "language": "DE",
+      "category": "accuracy",
+      "severity": "critical",
+      "span": "renews automatically",
+      "description": "The translation omits the negation.",
+      "data_origin": "synthetic_test_case"
+    }
+  ]
+}
